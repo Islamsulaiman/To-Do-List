@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Never Forget a thing list</h1>
+        <form action="" >
+            <input type="text" class="todo-input" id="todo-input" title="todo-input" required>
+            <button class="todo-button" id="todo-button" type="submit" title="todo-button">Add</button>
+            <div>
+                <select name="todos" id="todosFilter" title="todosFilter">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="incomplete">Incomplete</option>
+                </select>
+            </div>
+        </form>
+
+        <div id="todo-container">
+            <ul id="todo-list"></ul>
+        </div>
+        
+
+    </div>
+</body>
+</html>
